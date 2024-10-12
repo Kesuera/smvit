@@ -1,6 +1,6 @@
-# Hardvérové komponenty pre projekt Smart Radar
+# Hardvérové komponenty pre projekt Merač vzdialenosti
 
-Tento dokument poskytuje prehľad komponentov použitých v projekte „Smart Radar“, vrátane ich popisu a odkazov na technické špecifikácie.
+Tento dokument poskytuje prehľad komponentov použitých v projekte „Merač vzdialenosti“, vrátane ich popisu a odkazov na technické špecifikácie.
 
 ## Zoznam komponentov
 

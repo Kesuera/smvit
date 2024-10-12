@@ -1,4 +1,4 @@
-# Smart Radar
+# Merač vzdialenosti
 
 Projekt na vytvorenie inteligentného radaru pomocou Arduina.
 

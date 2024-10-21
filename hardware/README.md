@@ -26,3 +26,7 @@ Tento dokument poskytuje prehľad komponentov použitých v projekte „Merač v
 5. **Breadboard**
 
    - _Popis:_ Nepájavé pole umožňujúce rýchle a jednoduché prototypovanie elektronických obvodov.
+
+## Schémy zapojenia
+
+Schémy zapojenia jednotlivých komponentov sú dostupné v adresári `hardware/schemes`.

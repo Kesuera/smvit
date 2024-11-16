@@ -16,25 +16,11 @@ PFont orcFont;
 
 void setup() {
   
- size (1920, 1080);
+ size (1920, 1080); // ***CHANGE THIS TO YOUR SCREEN RESOLUTION***
  smooth();
  myPort = new Serial(this,"COM4", 9600); // starts the serial communication
  myPort.bufferUntil('.'); // reads the data from the serial port up to the character '.'. So actually it reads this: angle,distance.
  orcFont = loadFont("OCRAExtended-30.vlw");
-}
-
-void serialEvent (Serial myPort) { // starts reading data from the Serial Port
-  // reads the data from the Serial Port up to the character '.' and puts it into the String variable "data".
-  data = myPort.readStringUntil('.');
-  data = data.substring(0,data.length()-1);
-  
-  index1 = data.indexOf(","); // find the character ',' and puts it into the variable "index1"
-  angle= data.substring(0, index1); // read the data from position "0" to position of the variable index1 or thats the value of the angle the Arduino Board sent into the Serial Port
-  distance= data.substring(index1+1, data.length()); // read the data from position "index1" to the end of the data pr thats the value of the distance
-  
-  // converts the String variables into Integer
-  iAngle = int(angle);
-  iDistance = int(distance);
 }
 
 void draw() {
@@ -52,6 +38,20 @@ void draw() {
   drawLine();
   drawObject();
   drawText();
+}
+
+void serialEvent (Serial myPort) { // starts reading data from the Serial Port
+  // reads the data from the Serial Port up to the character '.' and puts it into the String variable "data".
+  data = myPort.readStringUntil('.');
+  data = data.substring(0,data.length()-1);
+  
+  index1 = data.indexOf(","); // find the character ',' and puts it into the variable "index1"
+  angle= data.substring(0, index1); // read the data from position "0" to position of the variable index1 or thats the value of the angle the Arduino Board sent into the Serial Port
+  distance= data.substring(index1+1, data.length()); // read the data from position "index1" to the end of the data pr thats the value of the distance
+  
+  // converts the String variables into Integer
+  iAngle = int(angle);
+  iDistance = int(distance);
 }
 
 void drawRadar() {

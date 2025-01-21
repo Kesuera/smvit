@@ -114,3 +114,7 @@ Produkt môže osloviť:
 - ROI do 6 – 12 mesiacov pri predaji 500+ jednotiek.
 - Rast dopytu po IoT riešeniach a vzdelávacích produktoch.
 - Diverzifikácia produktovej škály podľa záujmu trhu.
+
+# Vizualizacia finálného produktu
+
+![Ukážka produktu](final.gif)

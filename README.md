@@ -115,6 +115,6 @@ Produkt môže osloviť:
 - Rast dopytu po IoT riešeniach a vzdelávacích produktoch.
 - Diverzifikácia produktovej škály podľa záujmu trhu.
 
-# Vizualizacia finálného produktu
+# Vizualizácia finálneho produktu
 
 ![Ukážka produktu](final.gif)

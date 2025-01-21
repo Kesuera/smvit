@@ -55,10 +55,7 @@ Inteligentný radarový systém poskytuje cenovo dostupné a efektívne riešeni
 Produkt môže osloviť:
 
 - **Vzdelávacie inštitúcie:** na výučbu elektroniky a robotiky.
-- **Bezpečnostné spoločnosti:** pre monitorovanie priestorov.
-- **Smart home používatelia:** na ochranu domácnosti.
-- **Priemyselná automatizácia:** skladové a logistické aplikácie.
-- **DIY komunita:** hobby projekty a prototypovanie.
+- **Priemyselné podniky:** na školenie stážistov.
 
 ## 3. Príjmové modely
 
